@@ -66,15 +66,14 @@ Change the first column path in file `create_link.sh` with your actual dataset l
 
 ### Prediction
 
-You can evaluate a trained model using `prediction.sh` for each dataset.
+You can evaluate a trained model using `prediction.sh` for each dataset, that would help you generate *.png or *.pfm images correspoding to different datasets.
 ```shell
 sh predict_sf.sh
 sh predict_md.sh
 sh predict_kitti12.sh
 sh predict_kitti15.sh
 ```
-
-Results of our model on three benchmark datasets can be found [here](https://drive.google.com/file/d/1Wcv-WzQToTwAiBfWpONrtyQSgsHrWqWC/view?usp=sharing) 
+Results of our model on three benchmark datasets could also be found [here](https://drive.google.com/file/d/1Wcv-WzQToTwAiBfWpONrtyQSgsHrWqWC/view?usp=sharing) 
 
 
 ### Architecture Search 
