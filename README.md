@@ -4,22 +4,6 @@ This repository contains the code for our NeurIPS 2020 paper `Hierarchical Neura
 
 ![alt text](./LEStereo.png)
 
-The implementation of our architecture search is partly borrowed from [[AutoDeeplab](https://openaccess.thecvf.com/content_CVPR_2019/html/Liu_Auto-DeepLab_Hierarchical_Neural_Architecture_Search_for_Semantic_Image_Segmentation_CVPR_2019_paper.html)]  [[pytorch code](https://github.com/NoamRosenberg/autodeeplab)(Non-official)]. 
-
-### Citing
-If you find this code useful, please consider to cite our work.
-
-```
-@misc{cheng2020hierarchical,
-      title={Hierarchical Neural Architecture Search for Deep Stereo Matching}, 
-      author={Xuelian Cheng and Yiran Zhong and Mehrtash Harandi and Yuchao Dai and Xiaojun Chang and Tom Drummond and Hongdong Li and Zongyuan Ge},
-      year={2020},
-      eprint={2010.13501},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
-}
-```
-
 ## Requirements
 
 ### Environment
@@ -112,5 +96,20 @@ sh train_kitti12.sh
 sh train_kitti15.sh
 ```
 
+### Acknowledgements
+This repository makes liberal use of code from [[AutoDeeplab](https://openaccess.thecvf.com/content_CVPR_2019/html/Liu_Auto-DeepLab_Hierarchical_Neural_Architecture_Search_for_Semantic_Image_Segmentation_CVPR_2019_paper.html)]  [[pytorch code](https://github.com/NoamRosenberg/autodeeplab)(Non-official)]. 
 
+### Citing
+If you find this code useful, please consider to cite our work.
+
+```
+@misc{cheng2020hierarchical,
+      title={Hierarchical Neural Architecture Search for Deep Stereo Matching}, 
+      author={Xuelian Cheng and Yiran Zhong and Mehrtash Harandi and Yuchao Dai and Xiaojun Chang and Tom Drummond and Hongdong Li and Zongyuan Ge},
+      year={2020},
+      eprint={2010.13501},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
 
