@@ -4,7 +4,7 @@ This repository contains the code for our NeurIPS 2020 paper `Hierarchical Neura
 
 ![alt text](./LEStereo.png)
 
-The implementation of our architecture search part is partly borrowed from [[AutoDeeplab](https://openaccess.thecvf.com/content_CVPR_2019/html/Liu_Auto-DeepLab_Hierarchical_Neural_Architecture_Search_for_Semantic_Image_Segmentation_CVPR_2019_paper.html)]  [[pytorch code](https://github.com/NoamRosenberg/autodeeplab)(Non-official)]. 
+The implementation of our architecture search is partly borrowed from [[AutoDeeplab](https://openaccess.thecvf.com/content_CVPR_2019/html/Liu_Auto-DeepLab_Hierarchical_Neural_Architecture_Search_for_Semantic_Image_Segmentation_CVPR_2019_paper.html)]  [[pytorch code](https://github.com/NoamRosenberg/autodeeplab)(Non-official)]. 
 
 ### Citing
 If you find this code useful, please consider to cite our work.
