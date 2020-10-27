@@ -74,7 +74,7 @@ sh predict_kitti12.sh
 sh predict_kitti15.sh
 ```
 
-Results of our model on three benchmark datasets can be found[here](https://drive.google.com/file/d/1Wcv-WzQToTwAiBfWpONrtyQSgsHrWqWC/view?usp=sharing) 
+Results of our model on three benchmark datasets can be found [here](https://drive.google.com/file/d/1Wcv-WzQToTwAiBfWpONrtyQSgsHrWqWC/view?usp=sharing) 
 
 
 ### Architecture Search 
