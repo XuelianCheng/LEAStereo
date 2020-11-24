@@ -1,6 +1,6 @@
 ## LEAStereo
 
-This repository contains the code for our NeurIPS 2020 paper `Hierarchical Neural Architecture Searchfor Deep Stereo Matching` [[NeurIPS 20]()] [[arxiv](https://arxiv.org/abs/2010.13501)] 
+This repository contains the code for our NeurIPS 2020 paper `Hierarchical Neural Architecture Searchfor Deep Stereo Matching` [[NeurIPS 20](https://proceedings.neurips.cc/paper/2020/file/fc146be0b230d7e0a92e66a6114b840d-Paper.pdf)] 
 
 ![alt text](./LEStereo.png)
 
