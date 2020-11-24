@@ -7,7 +7,7 @@ def make_data_loader(args, **kwargs):
         if args.dataset == 'sceneflow':              
             trainA_list= 'dataloaders/lists/sceneflow_search_trainA.list' #randomly select 10,000 from the original training set
             trainB_list= 'dataloaders/lists/sceneflow_search_trainB.list' #randomly select 10,000 from the original training set
-            val_list   = 'dataloaders/lists/sceneflow_search_val.list'   #randomly select 1,000 from the original training set
+            val_list   = 'dataloaders/lists/sceneflow_search_val.list'   #randomly select 1,000 from the original test set
             train_list = 'dataloaders/lists/sceneflow_train.list'  #original training set: 35,454
             test_list  = 'dataloaders/lists/sceneflow_test.list'   #original test set:4,370
             trainA_set = stereo.DatasetFromList(args, trainA_list, [args.crop_height, args.crop_width], True)
