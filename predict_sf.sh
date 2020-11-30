@@ -11,5 +11,5 @@ CUDA_VISIBLE_DEVICES=1 python predict.py \
                 --cell_arch_fea='run/sceneflow/architecture/feature_genotype.npy' \
                 --net_arch_mat='run/sceneflow/architecture/matching_network_path.npy' \
                 --cell_arch_mat='run/sceneflow/architecture/matching_genotype.npy' \
-                --resume='./run/sceneflow/checkpoint/best.pth' 
+                --resume='./run/sceneflow/best/checkpoint/best.pth' 
 
