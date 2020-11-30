@@ -1,6 +1,0 @@
-datset:sceneflow
-lr:0.001
-lr_scheduler:cos
-epoch:10
-crop_height:192
-crop_width:384
