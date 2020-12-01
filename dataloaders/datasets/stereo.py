@@ -233,6 +233,7 @@ def load_data_md(file_path, current_file, eth=False):
     right = Image.open(imgr)
 
     disp_left, height, width = readPFM(gt_l)
+    pdb.set_trace()
 
     temp_data = np.zeros([8, height, width], 'float32')
     left = np.asarray(left)

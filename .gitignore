@@ -5,8 +5,7 @@ __pycache__/
 *$py.class
 /predict/*
 /apex/*
-/run/sceneflow/experiment_0/
-/run/sceneflow/model_best.pth.tar
+/run/*
 
 # Packages #
 ############
