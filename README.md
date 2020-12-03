@@ -102,13 +102,12 @@ This repository makes liberal use of code from [[AutoDeeplab](https://openaccess
 If you find this code useful, please consider to cite our work.
 
 ```
-@misc{cheng2020hierarchical,
-      title={Hierarchical Neural Architecture Search for Deep Stereo Matching}, 
-      author={Xuelian Cheng and Yiran Zhong and Mehrtash Harandi and Yuchao Dai and Xiaojun Chang and Tom Drummond and Hongdong Li and Zongyuan Ge},
-      year={2020},
-      eprint={2010.13501},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@article{cheng2020hierarchical,
+  title={Hierarchical Neural Architecture Search for Deep Stereo Matching},
+  author={Cheng, Xuelian and Zhong, Yiran and Harandi, Mehrtash and Dai, Yuchao and Chang, Xiaojun and Li, Hongdong and Drummond, Tom and Ge, Zongyuan},
+  journal={Advances in Neural Information Processing Systems},
+  volume={33},
+  year={2020}
 }
 ```
 
