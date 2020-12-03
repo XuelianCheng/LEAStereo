@@ -206,7 +206,7 @@ class AutoFeature(nn.Module):
                     normalized_betas[layer][0][1:] = F.softmax(self.betas[layer][0][1:].to(device=img_device), dim=-1) * (2/3)
                     normalized_betas[layer][1] = F.softmax(self.betas[layer][1].to(device=img_device), dim=-1)
                     normalized_betas[layer][2] = F.softmax(self.betas[layer][2].to(device=img_device), dim=-1)
-                    normalized_betas[layer][3][:2] = F.softmax(self.betas[layer][3][:1].to(device=img_device), dim=-1) * (2/3)
+                    normalized_betas[layer][3][:2] = F.softmax(self.betas[layer][3][:2].to(device=img_device), dim=-1) * (2/3)
 
         else:
             normalized_alphas = F.softmax(self.alphas, dim=-1)
@@ -258,7 +258,7 @@ class AutoFeature(nn.Module):
                                                                None,
                                                                normalized_alphas)
                 count += 1
-                level6_new = normalized_betas[layer][0][2] * level6_new_1 + normalized_betas[layer][1][2] * level6_new_2
+                level6_new = normalized_betas[layer][0][2] * level6_new_1 + normalized_betas[layer][1][1] * level6_new_2
 
                 level12_new, = self.cells[count](None,
                                                  self.level_6[-1],
